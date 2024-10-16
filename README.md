@@ -65,3 +65,28 @@ This API is designed for managing healthcare services, allowing users to create,
 1. Clone the repository:
    ```bash
    git clone <repository-url>
+   ```
+2. Navigate to the Project Directory: Change your current directory to the project folder:
+    ```bash
+    cd healthcare-service-management-api
+    ```
+3. Install Dependencies: Install the necessary Node.js packages by running:
+    ```bash
+    npm install
+    ```
+4. Set Up Environment Variables: Create a .env file in the root directory of the project and add the following variables:
+   ```bash
+   MONGODB_URI=<your-mongodb-connection-string>
+   PORT=8080
+   ```
+   Replace <your-mongodb-connection-string> with your actual MongoDB connection string.
+
+5. Start the Server: Start the API server with the following command:
+   ```bash
+   npm run start
+   ```
+   The server will run on http://localhost:8080.
+6. Test the Endpoints: Use Postman or any other API testing tool to interact with the API endpoints.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
