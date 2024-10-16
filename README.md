@@ -15,7 +15,7 @@ This API is designed for managing healthcare services, allowing users to create,
 - **Description**: Retrieves a list of all services.
 
 ### 2. Get Service by ID
-- **URL**: `/service/find/:id`
+- **URL**: `/service/find/id`
 - **Method**: `GET`
 - **Description**: Fetches a service by its unique ID.
 - **Response**:
@@ -38,7 +38,7 @@ This API is designed for managing healthcare services, allowing users to create,
     - **201 Created**: Returns the created service object.
 
 ### 4. Update a Service
-- **URL**: `/service/update/:id`
+- **URL**: `/service/update/id`
 - **Method**: `PUT`
 - **Request Body**:
     ```json
@@ -54,7 +54,7 @@ This API is designed for managing healthcare services, allowing users to create,
     - **404 Not Found**: Returns an error message if no service is found with the given ID.
 
 ### 5. Delete a Service
-- **URL**: `/service/delete/:id`
+- **URL**: `/service/delete/id`
 - **Method**: `DELETE`
 - **Description**: Removes a service from the database by its ID.
 - **Response**:
